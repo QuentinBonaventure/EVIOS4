@@ -32,6 +32,7 @@ class AddViewController: UIViewController {
             let newExpense = Entity(context: context)
             newExpense.name = nameTextField.text
             newExpense.value = Float(valueTextField.text!)!
+       
         
         commitData()
         

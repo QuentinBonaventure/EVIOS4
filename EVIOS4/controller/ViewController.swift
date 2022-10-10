@@ -58,7 +58,7 @@ class ViewController: UIViewController {
     func commitData(){
         do {
             try context.save()
-            delegate?.didAddView()
+            //delegate?.didAddView()
             dismiss(animated: true)
         } catch {
             print("Can't save to Core Data!")
